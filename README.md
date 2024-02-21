@@ -2,7 +2,7 @@
 ### Latent Diffusion Textual-Inversion Enhanced Virtual Try-On
 
 [![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2305.13501)
-[![GitHub Stars](https://img.shields.io/github/stars/miccunifi/ladi-vton?style=social)]([https://github.com/miccunifi/ladi-vton](https://github.com/superstar1225/Virtual-try-on-Ladi_vton))
+[![GitHub Stars](https://img.shields.io/github/stars/miccunifi/ladi-vton?style=social)](https://github.com/superstar1225/Virtual-try-on-Ladi_vton)
 
 🔥🔥 **[05/09/2023] Release of the training code**
 
