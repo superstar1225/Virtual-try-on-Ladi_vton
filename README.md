@@ -1,6 +1,4 @@
 # Virtual-try-on-Ladi_vton
-Latent Diffusion Textual-Inversion Enhanced Virtual Try-On
-
 ### Latent Diffusion Textual-Inversion Enhanced Virtual Try-On
 
 [![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2305.13501)
