@@ -570,14 +570,14 @@ def main():
                                                                   save_name=f"imgs_step_{global_step}",
                                                                   num_vstar=args.num_vstar, seed=args.seed)
 
-                            # Compute the metrics
-                            metrics = compute_metrics(
-                                os.path.join(args.output_dir, f"imgs_step_{global_step}_{args.test_order}"),
-                                args.test_order, args.dataset, 'all', ['all'], args.dresscode_dataroot,
-                                args.vitonhd_dataroot)
+                            # # Compute the metrics
+                            # metrics = compute_metrics(
+                            #     os.path.join(args.output_dir, f"imgs_step_{global_step}_{args.test_order}"),
+                            #     args.test_order, args.dataset, 'all', ['all'], args.dresscode_dataroot,
+                            #     args.vitonhd_dataroot)
 
-                            print(metrics, flush=True)
-                            accelerator.log(metrics, step=global_step)
+                            # print(metrics, flush=True)
+                            # accelerator.log(metrics, step=global_step)
 
                             # Delete the previous checkpoint
                             dirs = os.listdir(os.path.join(args.output_dir, "checkpoint"))

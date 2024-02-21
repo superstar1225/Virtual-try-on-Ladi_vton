@@ -698,14 +698,14 @@ def main():
                                                                 args.text_usage, vision_encoder, processor,
                                                                 args.cloth_input_type, num_vstar=args.num_vstar)
 
-                            # Compute the metrics
-                            metrics = compute_metrics(
-                                os.path.join(args.output_dir, f"imgs_step_{global_step}_{args.test_order}"),
-                                args.test_order,
-                                args.dataset, 'all', ['all'], args.dresscode_dataroot, args.vitonhd_dataroot)
+                            # # Compute the metrics
+                            # metrics = compute_metrics(
+                            #     os.path.join(args.output_dir, f"imgs_step_{global_step}_{args.test_order}"),
+                            #     args.test_order,
+                            #     args.dataset, 'all', ['all'], args.dresscode_dataroot, args.vitonhd_dataroot)
 
-                            print(metrics, flush=True)
-                            accelerator.log(metrics, step=global_step)
+                            # print(metrics, flush=True)
+                            # accelerator.log(metrics, step=global_step)
 
                             # Delete old checkpoints
                             dirs = os.listdir(os.path.join(args.output_dir, "checkpoint"))

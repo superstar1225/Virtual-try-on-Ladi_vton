@@ -94,7 +94,7 @@ def main():
             order='paired',
             category=category,
             radius=5,
-            category=['dresses', 'upper_body', 'lower_body'],
+            # category=['dresses', 'upper_body', 'lower_body'],
             size=(512, 384),
             outputlist=tuple(outputlist)
         )
@@ -105,7 +105,7 @@ def main():
             order='paired',
             category=category,
             radius=5,
-            category=['dresses', 'upper_body', 'lower_body'],
+            # category=['dresses', 'upper_body', 'lower_body'],
             size=(512, 384),
             outputlist=tuple(outputlist)
         )
