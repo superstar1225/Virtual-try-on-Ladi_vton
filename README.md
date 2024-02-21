@@ -11,9 +11,6 @@ Textual-Inversion Enhanced Virtual Try-On*".
 
 ## Overview
 
-![](assets/teaser.png "Overview of our approach")
-
-
 > **Abstract**: <br>
 > The rapidly evolving fields of e-commerce and metaverse continue to seek innovative approaches to enhance the consumer
 > experience. At the same time, recent advancements in the development of diffusion models have enabled generative
